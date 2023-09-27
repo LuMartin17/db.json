@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+"standby":
+[
+   {
+      "type": "header",
+      "version": "5.2.1",
+      "comment": "Export to JSON plugin for PHPMyAdmin"
+   },
+   {
+      "type": "database",
+      "name": "bd_lu"
+   },
+   {
+      "type": "table",
+      "name": "standby",
+      "database": "bd_lu",
+      "data": [
+         {
+            "id_standby": "22",
+            "nom_equipo": "Monitor de Signos Vitales-básico Neonatal Base de ",
+            "marca": "Mindray",
+            "modelo": "IMEC-15",
+            "no_serie": "JM-76001790",
+            "no_inventario": "167341",
+            "ubi": "UCIN"
+         },
+         {
+            "id_standby": "23",
+            "nom_equipo": "Monitor de Signos Vitales-básico Neonatal Base de ",
+            "marca": "Mindray",
+            "modelo": "IMEC-15",
+            "no_serie": "JM-76001802",
+            "no_inventario": "167351",
+            "ubi": "UCIN"
+         }
+      ]
+   }
+]
+}
